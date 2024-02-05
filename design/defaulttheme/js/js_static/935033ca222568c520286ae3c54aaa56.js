@@ -1,0 +1,2 @@
+lhcAppControllers.controller("LHCPriorityCtrl",["$scope","$window",function(e,n){this.value=[];var i=this;this.addFilter=function(){i.value.push({field:"",comparator:"=",value:""})},this.removeFilter=function(e){var n=i.value.indexOf(e);i.value.splice(n,1)},this.move=function(e,n,i){index=e.indexOf(n),newIndex=index+i,newIndex>-1&&newIndex<e.length&&(removedElement=e.splice(index,1)[0],e.splice(newIndex,0,removedElement))},this.setValue=function(){this.value=n.priorityValue}}]);
+//# sourceMappingURL=935033ca222568c520286ae3c54aaa56.js.map

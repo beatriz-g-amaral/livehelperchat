@@ -1,0 +1,2 @@
+lhcAppControllers.controller("LHCAccountValidator",["$scope","$http","$location","$rootScope",function(r,i,t,o){var e=this;this.requiredGroups=[],this.validRequiredGroups=!1,this.validForm=!1,this.validateGroups=function(){this.validForm=this.validRequiredGroups=Object.keys(this.requiredGroups).filter((function(r){return!1!==e.requiredGroups[r]})).length>0}}]);
+//# sourceMappingURL=9b10830cfbb1f6cf8ccd213fe30b230c.js.map
