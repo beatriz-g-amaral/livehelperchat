@@ -12,6 +12,10 @@ $orderInformation = array(
         'item' => 'chat_owner',
         'enabled' => true
     ),
+    'chat_g3stor' => array(
+        'item' => 'chat_g3stor',
+        'enabled' => true
+    ),
     'voice_call' => array(
         'item' => 'voice_call',
         'enabled' => true
