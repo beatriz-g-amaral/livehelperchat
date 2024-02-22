@@ -28,7 +28,13 @@ $ViewList['chathistory'] = array(
     'uparams' => array(),
     'functions' => array( 'use' ),
 );
-$ViewList['chatg3stor'] = array(
+
+$ViewList['ticketg3stor'] = array(
+    'params' => array('chat_id', 'Assunto' ,'Cliente' ,'Área','Contato','Categoria','Funcionário','Situação'),
+    'functions' => array( 'use' ),
+);
+
+$ViewList['deleteTicket'] = array(
     'params' => array('chat_id', 'Assunto' ,'Cliente' ,'Área','Contato','Categoria','Funcionário','Situação'),
     'functions' => array( 'use' ),
 );

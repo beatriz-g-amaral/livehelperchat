@@ -5,9 +5,8 @@
             <div class="col-6 pb-1">
                 <div class="text-muted" id="create-ticket-<?php echo $chat->id?>" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/adminchat','Criar chamado')?>">
                 <?php?>
-                <span class="material-icons action-image" onclick='lhc.revealModal({"iframe" : true, "title" : <?php echo json_encode(htmlspecialchars_decode(erTranslationClassLhTranslation::getInstance()->getTranslation('chat/adminchat','Criar Chamado')), JSON_HEX_QUOT)?>, height: "600", "url":WWW_DIR_JAVASCRIPT+"chat/chatg3stor"})'
-                 title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/adminchat','Criar chamado')?>">chamado</span>
-                Criar Chamado
+                <span class="material-icons action-image" onclick='lhc.revealModal({"iframe" : true, "title" : <?php echo json_encode(htmlspecialchars_decode(erTranslationClassLhTranslation::getInstance()->getTranslation('chat/adminchat','Criar Chamado')), JSON_HEX_QUOT)?>, height: "600", "url":WWW_DIR_JAVASCRIPT+"chat/ticketg3stor"})'
+                 title="Criar Chamado">chamado</span>Criar Chamado
                     <?php?>    
                 </div>
             </div>
