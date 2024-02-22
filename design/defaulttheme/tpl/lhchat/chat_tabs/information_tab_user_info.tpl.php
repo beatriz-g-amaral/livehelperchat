@@ -42,8 +42,8 @@
             <?php include(erLhcoreClassDesign::designtpl('lhchat/chat_tabs/information_rows/chat_duration.tpl.php'));?>
         <?php elseif ($buttonData['item'] == 'chat_owner') : ?>
             <?php include(erLhcoreClassDesign::designtpl('lhchat/chat_tabs/information_rows/chat_owner.tpl.php'));?>
-        <?php elseif ($buttonData['item'] == 'chat_g3stor') : ?>
-            <?php include(erLhcoreClassDesign::designtpl('lhchat/chat_tabs/information_rows/chat_g3stor.tpl.php'));?>
+        <?php elseif ($buttonData['item'] == 'ticketg3stor') : ?>
+            <?php include(erLhcoreClassDesign::designtpl('lhchat/chat_tabs/information_rows/ticket_g3stor.tpl.php'));?>
         <?php else : ?>
             <?php include(erLhcoreClassDesign::designtpl('lhchat/chat_tabs/information_rows/extension_information_row_multiinclude.tpl.php'));?>
         <?php endif;?>
