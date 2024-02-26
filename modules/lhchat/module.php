@@ -32,12 +32,7 @@ $ViewList['chathistory'] = array(
 $ViewList['ticketg3stor'] = array(
     'params' => array('chat_id', 'Assunto' ,'Cliente' ,'Área','Contato','Categoria','Funcionário','Situação'),
     'functions' => array( 'use' ),
-);
-
-$ViewList['deleteTicket'] = array(
-    'params' => array('chat_id', 'Assunto' ,'Cliente' ,'Área','Contato','Categoria','Funcionário','Situação'),
-    'functions' => array( 'use' ),
-);
+); 
 
 $ViewList['sendmassmessage'] = array(
     'params' => array(),
