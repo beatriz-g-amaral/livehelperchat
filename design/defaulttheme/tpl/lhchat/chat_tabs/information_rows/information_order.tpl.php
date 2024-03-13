@@ -16,6 +16,10 @@ $orderInformation = array(
         'item' => 'ticketg3stor',
         'enabled' => true
     ),
+    'info_g3stor' => array(
+        'item' => 'info_g3stor',
+        'enabled' => true
+    ),
     'voice_call' => array(
         'item' => 'voice_call',
         'enabled' => true

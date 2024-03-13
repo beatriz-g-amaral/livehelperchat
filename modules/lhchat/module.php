@@ -33,6 +33,18 @@ $ViewList['ticketg3stor'] = array(
     'params' => array('chat_id', 'Assunto' ,'Cliente' ,'Área','Contato','Categoria','Funcionário','Situação'),
     'functions' => array( 'use' ),
 ); 
+$ViewList['info_g3stor'] = array(
+    'params' => array('chat_phone'),
+    'functions' => array( 'use' ),
+); 
+$ViewList['deleteticket'] = array(
+    'params' => array('chat_id', 'Assunto' ,'Cliente' ,'Área','Contato','Categoria','Funcionário','Situação'),
+    'functions' => array( 'use' ),
+);
+$ViewList['createticket'] = array(
+    'params' => array('chat_id', 'Assunto' ,'Cliente' ,'Área','Contato','Categoria','Funcionário','Situação'),
+    'functions' => array( 'use' ),
+);  
 
 $ViewList['sendmassmessage'] = array(
     'params' => array(),

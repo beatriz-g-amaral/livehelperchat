@@ -2,6 +2,65 @@
     box-sizing: inherit
 }
 
+
+.form-container {
+    padding: 15px;
+}
+
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    flex: 1;
+    padding-right: 20px;
+}
+
+
+.input-group {
+    display: flex;
+}
+
+
+.comments-container {
+    padding: 15px;
+}
+
+
+.close-button {
+    margin: 15px;
+}
+
+
+.comment-button {
+    margin: 15px;
+}
+
+
+.g3storH4 { 
+    margin-right: 20px;
+}
+
+.g3storDiv{ 
+    padding: 15px
+}
+
+.g3storInfos{
+    display: flex; 
+    padding: 5px;
+}
+
+.g3storInfosSmall{
+    display: flex;
+}
+
 html {
     box-sizing: border-box;
     font-size: 62.5%
